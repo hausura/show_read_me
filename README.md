@@ -92,7 +92,7 @@ pip install -r requirement.txt
 - Truy cập vào thư mục: “..\dicom_loader\Parallel\front-end”
 - Dùng lệnh
 ```
- npm install
+npm install
 ```
 ### 3.Cài đặt biến môi trường 
 - Chỉnh sửa file user.env
