@@ -38,7 +38,7 @@ npm install
 
 ## How to use 
 ### 1.Cách chạy:
-####Đồng thời tạo 2 terminal trong VsCode:
+#### Đồng thời tạo 2 terminal trong VsCode:
 - Terminal đầu tiên chạy front-end:
 ```
 cd “./front-end”
