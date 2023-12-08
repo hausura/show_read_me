@@ -1,76 +1,11 @@
-
-
-
-# Nhom4_ParallelComputing_TSP
-
-Project tìm hiểu về cách triển khai thuật toán genetic song song cho bài toán traveling salesman
-
-Từ đó áp dụng bài toán để xây dựng một bản đồ giúp tìm ra lộ trình tối ưu từ một kho hàng đến các
-
-địa điểm cần giao hàng.
-
-## Hướng dẫn cài đặt
-
-Cài đặt Node.js
-
-Link: [Download | Node.js (nodejs.org)](https://nodejs.org/en/download)
-
-Clone source code từ github	
-
-      git clone https://github.com/NguyenThang1501/Nhom4_ParallelComputing_TSP.git
-              
-Install các thư viện cần thiết
-      
-Di chuyển vào thư mục frontend, cài đặt npm
-
-
-      cd frontend
-
-      npm install
-
-Numpy: 
-
-      pip install numpy
-
-Mpi4py: 
-
-      pip install mpi4py
-
-Flask: 
-
-      pip install flask
-
-Flask Cors: 
-
-      pip install flask_cors
-
-Chạy chương trình:
-
-Trong thư mục backend, chạy lệnh: 
-
-      python tsp_para.py
-
-Mở một terminal khác, chuyển sang thư mục tsp, chạy lệnh: 
-
-      npm start
-      
-  Lưu ý: Khi chạy lệnh: **`python tsp_para.py`** có thể gặp lỗi:
-
- ![image](https://github.com/NguyenThang1501/Nhom4_ParallelComputing_TSP/assets/109154036/57b96ad9-3f3e-448c-9930-b688ff7e00dd)
-
-Khi đó, chúng ta cần chạy lệnh:
-
-      pip install --upgrade watchdog
-
-Và chạy lại:
-
-      python tsp_para.py
-
-## Giao diện chính của ứng dụng:
-
-
-
 # Simple MPR
+
+## Introduction
+- Môn: **Parallel Computing** 
+- Khoa: [Khoa Toán Cơ Tin học](http://mim.hus.vnu.edu.vn/en)
+- Trường: [Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội](http://hus.vnu.edu.vn/)
+
+
 ## How to set up
 ### 1. Clone master brand
 
@@ -101,29 +36,36 @@ npm install
 - Lựa chọn port trống để chạy sever:
 - Dán đường dẫn của 1 trong các folder chứa các file DICOM(ở trong backend/data) hoặc data tự chọn
 
-
-
-Simple MPR <br/>
-  1. Paste the path to dicom files in the .env file in backend folder
-  2. Configure the port in the .env for the server to run
-  3. Use git clone to clone the project
-  4. Npm install
-  5. fastApi install
-  6. in front-end folder use npm start
-  7. in backend folder use uvicorn main:app --reload
 ## How to use 
-After the user interface show up, you can interact with three components 
-
 ### 1.Cách chạy:
 ####Đồng thời tạo 2 terminal trong VsCode:
--Terminal đầu tiên chạy front-end:
+- Terminal đầu tiên chạy front-end:
 ```
 cd “./front-end”
 ```
-Chạy front-end bằng lệnh:
+- Chạy front-end bằng lệnh:
 ```
 npm start
 ```
+- Terminal thứ hai chạy sever back-end:
+```
+cd “./backend”
+```
+- Chạy sever back-end bằng lệnh:
+```
+uvicorn main:app –reload
+```
+### 2.Hiển thị ảnh MPR
+- Trang sẽ hiển thị ảnh theo 3 hướng Coronal,Axial,Sagital
+- Thanh kéo Adjust để xem các lớp ảnh theo từng hướng nhìn
+
+ ![image](https://github.com/hausura/show_read_me/blob/main/1.png)
+ ![image](https://github.com/hausura/show_read_me/blob/main/2.png)
+ ![image](https://github.com/hausura/show_read_me/blob/main/3.png)
+
+
+
+
 
      
 
@@ -131,10 +73,6 @@ npm start
 
 
 
-## Introduction
-- Môn: **Parallel Computing** 
-- Khoa: [Khoa Toán Cơ Tin học](http://mim.hus.vnu.edu.vn/en)
-- Trường: [Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội](http://hus.vnu.edu.vn/)
 
 ## How to set up
 
