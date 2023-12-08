@@ -76,34 +76,3 @@ uvicorn main:app –reload
 
 
      
-
-
-
-
-
-
-## How to set up
-
-- a
-
---c
-
-
-
-## Chạy chương trình 
-Để có thể chạy được các file của repo, trước tiên bạn cần clone repo về máy tính:
-
-```
-git clone https://github.com/QuyAnh2005/Data-Structures-and-Algorithms.git
-```
-
-Để bạn đọc dễ dàng theo dõi nội dung thì khi upload lên github, mình đã thay đổi tên các package cho phù hợp. Vì thế, sau khi clone về, bạn cần đổi lại tên folder cho giống với tên package chứa trong file tương ứng của folder đó bằng cách xóa hết dấu cách, số và kí tự '-' có trong tên. Dưới đây là ví dụ:
-
-- `1 - JavaReview` -> `JavaReview` 
-- `2 - Sorting` -> `Sorting` 
-- `3 - Abstract Data Type and List ADT` -> `AbstractDataTypeandListADT`
-- `4 - Stack and Queue` -> `StackAndQueue`  
--  ...
-
-Với các folder còn lại, cũng thay đổi tương tự. Sau khi các folder đã được đổi tên thì bạn mở trình biên dịch java, import các folder vừa xong như package và chạy chương trình. 
-
