@@ -80,18 +80,23 @@ git clone https://github.com/godwindk3/Parallel.git
 ```
 
 ### 2.Install packages
-## Backend
+## Back-End
 - Truy cập vào thư mục: “..\dicom_loader\Parallel\backend”
-```
-git clone https://github.com/godwindk3/Parallel.git
-```
-
 - Dùng lệnh
 ```
 pip install -r requirement.txt
 ```
-###### (file requirement.txt chứa các thư viện cần thiết bao gồm:
--fastapi, numpy, Pillow, pydicom, uvicorn, python, pyton.dotenv)
+###### (file requirement.txt chứa các thư viện cần thiết bao gồm: fastapi, numpy, Pillow, pydicom, uvicorn, python, pyton.dotenv)
+
+## Front-End:
+- Truy cập vào thư mục: “..\dicom_loader\Parallel\front-end”
+- Dùng lệnh
+```
+ npm install
+```
+### 3.Cài đặt biến môi trường 
+- Chỉnh sửa file user.env
+
 
 Simple MPR <br/>
   1. Paste the path to dicom files in the .env file in backend folder
