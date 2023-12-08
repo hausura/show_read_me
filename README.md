@@ -95,7 +95,10 @@ npm install
 ```
 ### 3.Cài đặt biến môi trường 
 - Chỉnh sửa file user.env
- ![image](https://github.com/hausura/show_read_me/blob/main/1.png)
+ ![image](https://github.com/hausura/show_read_me/blob/main/4.png)
+- Lựa chọn port trống để chạy sever:
+- Dán đường dẫn của 1 trong các folder chứa các file DICOM(ở trong backend/data) hoặc data tự chọn
+
 
 
 Simple MPR <br/>
@@ -108,6 +111,17 @@ Simple MPR <br/>
   7. in backend folder use uvicorn main:app --reload
 ## How to use 
 After the user interface show up, you can interact with three components 
+
+### 1.Cách chạy:
+####Đồng thời tạo 2 terminal trong VsCode:
+-Terminal đầu tiên chạy front-end:
+```
+cd “./front-end”
+```
+Chạy front-end bằng lệnh:
+```
+npm start
+```
 
      
 
