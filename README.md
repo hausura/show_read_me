@@ -1,4 +1,3 @@
-# show_read_me
 
 
 
@@ -96,6 +95,7 @@ npm install
 ```
 ### 3.Cài đặt biến môi trường 
 - Chỉnh sửa file user.env
+ ![image](https://github.com/hausura/show_read_me/blob/main/1.png)
 
 
 Simple MPR <br/>
