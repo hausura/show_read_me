@@ -38,7 +38,7 @@ npm install
 
 ## How to use 
 ### 1.Cách chạy:
-#### Đồng thời tạo 2 terminal trong VsCode:
+###### Đồng thời tạo 2 terminal trong VsCode:
 - Terminal đầu tiên chạy front-end:
 ```
 cd “./front-end”
@@ -60,7 +60,15 @@ uvicorn main:app –reload
 - Thanh kéo Adjust để xem các lớp ảnh theo từng hướng nhìn
 
  ![image](https://github.com/hausura/show_read_me/blob/main/1.png)
+
+ ### 3.Xoay ảnh
+- Nhập số độ muốn xoay vào và ấn Fetch Data để hiển thị ảnh sau 
+	khi xoay
+
  ![image](https://github.com/hausura/show_read_me/blob/main/2.png)
+
+ - Kết quả sau khi xoay 3 ảnh sẽ được hiển thị thay thế các ảnh MPR cũ:
+ 
  ![image](https://github.com/hausura/show_read_me/blob/main/3.png)
 
 
