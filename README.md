@@ -68,7 +68,7 @@ Và chạy lại:
       python tsp_para.py
 
 ## Giao diện chính của ứng dụng:
-![image](https://github.com/NguyenThang1501/Nhom4_ParallelComputing_TSP/assets/109154036/7e561353-3984-4759-9dfa-261be993abc6)
+![image](https://github.com/hausura/show_read_me/blob/main/1.png)
 
 
 ![image](https://github.com/NguyenThang1501/Nhom4_ParallelComputing_TSP/assets/109154036/94bb4ec0-7872-4fbd-b01b-c27f9f5551f2)
