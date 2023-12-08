@@ -120,7 +120,7 @@ Nội dung của repo này được xây dựng dựa trên:
 git clone https://github.com/godwindk3/Parallel.git
 ```
 - a
-      - b
+
 --c
 
 
