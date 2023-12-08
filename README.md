@@ -68,27 +68,28 @@ Và chạy lại:
       python tsp_para.py
 
 ## Giao diện chính của ứng dụng:
-![image](https://github.com/hausura/show_read_me/blob/main/1.png)
-
-
-![image](https://github.com/NguyenThang1501/Nhom4_ParallelComputing_TSP/assets/109154036/94bb4ec0-7872-4fbd-b01b-c27f9f5551f2)
 
 
 
 # Simple MPR
 ## How to set up
-Clone master brand: 
+### 1. Clone master brand
 
-https://github.com/godwindk3/Parallel.git
+```
+git clone https://github.com/godwindk3/Parallel.git
+```
 
-Backend
-requirement 
--fastapi
--numpy
--Pillow
--pydicom
--uvicorn
--python-dotenv
+### 2.Install packages
+## Backend
+- Truy cập vào thư mục: “..\dicom_loader\Parallel\backend”
+```
+git clone https://github.com/godwindk3/Parallel.git
+```
+
+- Dùng lệnh pip install -r requirement.txt
+######(file requirement.txt chứa các thư viện cần thiết bao gồm:
+-fastapi, numpy, Pillow, pydicom, uvicorn, python, pyton.dotenv)
+
 Simple MPR <br/>
   1. Paste the path to dicom files in the .env file in backend folder
   2. Configure the port in the .env for the server to run
@@ -106,19 +107,13 @@ After the user interface show up, you can interact with three components
 
 
 
-## Giới thiệu 
-Nội dung của repo này được xây dựng dựa trên:
-
+## Introduction
 - Môn: **Parallel Computing** 
 - Khoa: [Khoa Toán Cơ Tin học](http://mim.hus.vnu.edu.vn/en)
 - Trường: [Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội](http://hus.vnu.edu.vn/)
 
 ## How to set up
-### 1. Clone master brand: 
 
-```
-git clone https://github.com/godwindk3/Parallel.git
-```
 - a
 
 --c
