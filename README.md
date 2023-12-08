@@ -86,8 +86,11 @@ git clone https://github.com/godwindk3/Parallel.git
 git clone https://github.com/godwindk3/Parallel.git
 ```
 
-- Dùng lệnh pip install -r requirement.txt
-######(file requirement.txt chứa các thư viện cần thiết bao gồm:
+- Dùng lệnh
+```
+pip install -r requirement.txt
+```
+###### (file requirement.txt chứa các thư viện cần thiết bao gồm:
 -fastapi, numpy, Pillow, pydicom, uvicorn, python, pyton.dotenv)
 
 Simple MPR <br/>
