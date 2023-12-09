@@ -14,7 +14,7 @@ git clone https://github.com/godwindk3/Parallel.git
 ```
 
 ### 2.Install packages
-## Back-End
+## Back-End:
 - Truy cập vào thư mục: “..\dicom_loader\Parallel\backend”
 - Dùng lệnh
 ```
@@ -33,11 +33,11 @@ npm install
 
 
  ![image](https://github.com/hausura/show_read_me/blob/main/4.png)
-- Lựa chọn port trống để chạy sever:
+- Lựa chọn port trống để chạy sever
 - Dán đường dẫn của 1 trong các folder chứa các file DICOM(ở trong backend/data) hoặc data tự chọn
 
 ## How to use 
-### 1.Cách chạy:
+### 1.Cách chạy
 ###### Đồng thời tạo 2 terminal trong VsCode:
 - Terminal đầu tiên chạy front-end:
 ```
@@ -71,7 +71,7 @@ uvicorn main:app –reload
  
  ![image](https://github.com/hausura/show_read_me/blob/main/3.png)
 
- ### 3.Hiển thị thông tin bệnh nhân
+ ### 4.Hiển thị thông tin bệnh nhân
 
  ![image](https://github.com/hausura/show_read_me/blob/main/6.png)
 
