@@ -71,7 +71,9 @@ uvicorn main:app –reload
  
  ![image](https://github.com/hausura/show_read_me/blob/main/3.png)
 
-  ![image](https://github.com/hausura/show_read_me/blob/main/6.png)
+ ### 3.Hiển thị thông tin bệnh nhân
+
+ ![image](https://github.com/hausura/show_read_me/blob/main/6.png)
 
 
 
