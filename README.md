@@ -65,11 +65,14 @@ uvicorn main:app –reload
 - Nhập số độ muốn xoay vào và ấn Fetch Data để hiển thị ảnh sau 
 	khi xoay
 
- ![image](https://github.com/hausura/show_read_me/blob/main/2.png)
+ ![image](https://github.com/hausura/show_read_me/blob/main/5.png)
 
  - Kết quả sau khi xoay 3 ảnh sẽ được hiển thị thay thế các ảnh MPR cũ:
  
  ![image](https://github.com/hausura/show_read_me/blob/main/3.png)
+
+  ![image](https://github.com/hausura/show_read_me/blob/main/6.png)
+
 
 
 
