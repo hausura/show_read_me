@@ -57,13 +57,12 @@ uvicorn main:app –reload
 ```
 ### 2.Hiển thị ảnh MPR
 - Trang sẽ hiển thị ảnh theo 3 hướng Coronal,Axial,Sagital
-- Thanh kéo Adjust để xem các lớp ảnh theo từng hướng nhìn
+- Thanh kéo Adjust để xem các lớp ảnh theo từng hướng nhìn:
 
  ![image](https://github.com/hausura/show_read_me/blob/main/1.png)
 
  ### 3.Xoay ảnh
-- Nhập số độ muốn xoay vào và ấn Fetch Data để hiển thị ảnh sau 
-	khi xoay
+- Nhập số độ muốn xoay vào và ấn Fetch Data để hiển thị ảnh sau khi xoay:
 
  ![image](https://github.com/hausura/show_read_me/blob/main/5.png)
 
@@ -72,6 +71,7 @@ uvicorn main:app –reload
  ![image](https://github.com/hausura/show_read_me/blob/main/3.png)
 
  ### 4.Hiển thị thông tin bệnh nhân
+ - Thông tin bệnh nhân bao gồm:
 
  ![image](https://github.com/hausura/show_read_me/blob/main/6.png)
 
